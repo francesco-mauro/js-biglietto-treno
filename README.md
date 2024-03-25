@@ -23,5 +23,7 @@
     - *Altrimenti
         -va applicato uno sconto del 40% per gli over 65.*
   - [ ] Formatta il prezzo finale in modo "umano"
-  - [ ] Mostra il prezzo finale all'utente
 
+
+### 3. OUTPUT
+  - [ ] Mostra il prezzo finale all'utente
