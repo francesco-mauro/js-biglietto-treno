@@ -28,16 +28,24 @@ console.log(standardPrice, typeof standardPrice);
 
 // 4. Applica gli sconti
 
-let finalPrice; //Number
+let finalPrice = ""; //Number
 if (etaNumber < 18) {
     // Sconto del 20%
-    finalPrice = standardPrice - standardPrice* 0.2;
+    finalPrice = standardPrice - (standardPrice * 0.2);
 } else if (etaNumber > 65) {
     // Sconto del 40%
-    finalPrice = standardPrice - standardPrice 0.4;
+    finalPrice = standardPrice - (standardPrice * 0.4);
 } else {
     // No scont
     finalPrice = standardPrice;
 }
 
 console.log(finalPrice, typeof finalPrice);
+
+
+// 5. Formatta il prezzo finale in modo "umano"
+let fixedPrice = finalPrice.toFixed(2);
+
+// 6. Mostra il prezzo finale all'utente
+alert("Il prezzo del tuo biglietto è: €" + fixedPrice);
+document.getElementById("result").innerHTML = "€ " + fixedPrice;
