@@ -15,7 +15,7 @@
   - [x] Converte le in numeri i valori "string" inseriti dall'utente
   - [x] Calcola il prezzo base del biglietto
     - *il prezzo del biglietto è definito in base ai km (0.21 € al km)*
-  - [ ] Applica gli sconti
+  - [x] Applica gli sconti
     - *Se (l'utente è minorenne): 
         -va applicato uno sconto del 20% per i minorenni*
     - *Altrimenti se (l'utente è tra i 18 anni ed i 65 anni)

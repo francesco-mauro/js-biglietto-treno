@@ -25,3 +25,19 @@ console.log(kmCost, typeof kmCost);
 let standardPrice = chilometriNumber * kmCost; //Number
 console.log(standardPrice, typeof standardPrice);
 
+
+// 4. Applica gli sconti
+
+let finalPrice; //Number
+if (etaNumber < 18) {
+    // Sconto del 20%
+    finalPrice = standardPrice - standardPrice* 0.2;
+} else if (etaNumber > 65) {
+    // Sconto del 40%
+    finalPrice = standardPrice - standardPrice 0.4;
+} else {
+    // No scont
+    finalPrice = standardPrice;
+}
+
+console.log(finalPrice, typeof finalPrice);
