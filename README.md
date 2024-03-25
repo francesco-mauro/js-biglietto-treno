@@ -8,12 +8,12 @@
 	---
 
 ### 1. INPUT
-  - [ ] Chiede all'utente il numero di chilometri che vuole percorrere
-  - [ ] Chiede all'utente la sua età
+  - [x] Chiede all'utente il numero di chilometri che vuole percorrere
+  - [x] Chiede all'utente la sua età
 
 ### 2. ESECUZIONE LOGICA
-  - [ ] Converte le in numeri i valori "string" inseriti dall'utente
-  - [ ] Calcola il prezzo base del biglietto
+  - [x] Converte le in numeri i valori "string" inseriti dall'utente
+  - [x] Calcola il prezzo base del biglietto
     - *il prezzo del biglietto è definito in base ai km (0.21 € al km)*
   - [ ] Applica gli sconti
     - *Se (l'utente è minorenne): 
