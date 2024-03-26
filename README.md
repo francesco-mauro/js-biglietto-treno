@@ -4,6 +4,7 @@
 4. Applica gli sconti
 5. Formatta il prezzo finale in modo "umano"
 6. Mostra il prezzo finale all'utente
+7. Impagina meglio il tutto con del css
 
 	---
 
@@ -24,6 +25,11 @@
         -va applicato uno sconto del 40% per gli over 65.*
   - [x] Formatta il prezzo finale in modo "umano"
 
-
 ### 3. OUTPUT
   - [x] Mostra il prezzo finale all'utente
+
+### CSS 
+  -Impagina meglio il tutto con del css
+    -[x] formatta uno stile roe per il tuo css
+    -[x] mostra il prezzo in basso
+
