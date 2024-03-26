@@ -12,7 +12,7 @@
   - [x] Chiede all'utente la sua età
 
 ### 2. ESECUZIONE LOGICA
-  - [x] Converte le in numeri i valori "string" inseriti dall'utente
+  - [x] Converte in numeri i valori "string" inseriti dall'utente
   - [x] Calcola il prezzo base del biglietto
     - *il prezzo del biglietto è definito in base ai km (0.21 € al km)*
   - [x] Applica gli sconti
