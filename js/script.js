@@ -15,37 +15,47 @@ const etaNumber = parseInt(eta); //Number
 console.log(chilometriNumber, typeof chilometriNumber);
 console.log(etaNumber, typeof etaNumber);
 
-// 3. Calcola il prezzo base del biglietto
+if (isNaN(chilometriNumber) === false && isNaN(etaNumber) === false) {
+    //possiamo porcedere al calcolo
 
-// Costo al km
-const kmCost = 0.21; //Number
-console.log(kmCost, typeof kmCost);
+    // 3. Calcola il prezzo base del biglietto
+
+    // Costo al km
+    const kmCost = 0.21; //Number
+    console.log(kmCost, typeof kmCost);
 
 
-let standardPrice = chilometriNumber * kmCost; //Number
-console.log(standardPrice, typeof standardPrice);
+    let standardPrice = chilometriNumber * kmCost; //Number
+    console.log(standardPrice, typeof standardPrice);
 
 
-// 4. Applica gli sconti
+    // 4. Applica gli sconti
 
-let finalPrice = ""; //Number
-if (etaNumber < 18) {
-    // Sconto del 20%
-    finalPrice = standardPrice - (standardPrice * 0.2);
-} else if (etaNumber > 65) {
-    // Sconto del 40%
-    finalPrice = standardPrice - (standardPrice * 0.4);
+    let finalPrice = ""; //Number
+    if (etaNumber < 18) {
+        // Sconto del 20%
+        finalPrice = standardPrice - (standardPrice * 0.2);
+    } else if (etaNumber > 65) {
+        // Sconto del 40%
+        finalPrice = standardPrice - (standardPrice * 0.4);
+    } else {
+        // No scont
+        finalPrice = standardPrice;
+    }
+
+    console.log(finalPrice, typeof finalPrice);
+
+
+    // 5. Formatta il prezzo finale in modo "umano"
+    let fixedPrice = finalPrice.toFixed(2);
+
+    // 6. Mostra il prezzo finale all'utente
+    alert("Il prezzo del tuo biglietto è: €" + fixedPrice);
+    document.getElementById("result").innerHTML = "€ " + fixedPrice;
+
 } else {
-    // No scont
-    finalPrice = standardPrice;
+    // Se almeno uno dei valori inseriti non è valido, mostra un messaggio di errore
+    alert("Hai inserito dei valori non validi. Si prega di inserire solo numeri per entrambi i campi.");
+
+
 }
-
-console.log(finalPrice, typeof finalPrice);
-
-
-// 5. Formatta il prezzo finale in modo "umano"
-let fixedPrice = finalPrice.toFixed(2);
-
-// 6. Mostra il prezzo finale all'utente
-alert("Il prezzo del tuo biglietto è: €" + fixedPrice);
-document.getElementById("result").innerHTML = "€ " + fixedPrice;
