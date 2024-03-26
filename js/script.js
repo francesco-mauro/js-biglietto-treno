@@ -15,7 +15,7 @@ const etaNumber = parseInt(eta); //Number
 console.log(chilometriNumber, typeof chilometriNumber);
 console.log(etaNumber, typeof etaNumber);
 
-if (isNaN(chilometriNumber) === false && isNaN(etaNumber) === false) {
+if (isNaN(chilometriNumber) === false && isNaN(etaNumber) === false && chilometriNumber > 0 && etaNumber > 0) {
     //possiamo porcedere al calcolo
 
     // 3. Calcola il prezzo base del biglietto
