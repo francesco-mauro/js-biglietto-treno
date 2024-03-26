@@ -41,8 +41,7 @@ button {
     min-width: 100px; 
     color: white;
     background-color: lightblue;
-    cursor: pointer;
-    border: none;
+    border: 1px solid black;
 }
 button:hover {
     background-color: blue;
