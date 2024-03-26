@@ -8,8 +8,8 @@
 	---
 
 ### 1. INPUT
-  - [x] Chiede all'utente il numero di chilometri che vuole percorrere
-  - [x] Chiede all'utente la sua età
+  - [x] fai scrivere all'utente il numero di chilometri che vuole percorrere
+  - [x] fai scrivere all'utente all'utente la sua età
 
 ### 2. ESECUZIONE LOGICA
   - [x] Converte in numeri i valori "string" inseriti dall'utente
